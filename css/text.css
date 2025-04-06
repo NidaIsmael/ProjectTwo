@@ -319,7 +319,6 @@ body {
 
 .old {
     display: inline-block;
-    font-size: 40px;
     opacity: 0;
     font-size: 80px;
     font-weight: bold;
@@ -328,7 +327,6 @@ body {
 }
 .tattered {
     display: inline-block;
-    font-size: 40px;
     opacity: 0;
     font-size: 80px;
     font-weight: bold;
@@ -344,7 +342,7 @@ body {
     animation-delay: 5.9s;
 }
 .time{
-    font-size: 120px;
+    font-size: 100px;
     color: rgb(242, 204, 90);
     opacity: 0;
     text-decoration: none;
@@ -550,7 +548,7 @@ body {
 
 .fulfill:hover {
     color: #FF6347; 
-    font-size: 1.4em; 
+    font-size: 95px;
     font-weight: bold; 
     text-transform: uppercase; 
     transform: rotate(360deg); 
