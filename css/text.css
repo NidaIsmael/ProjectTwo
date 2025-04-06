@@ -1,0 +1,782 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(88, 22, 22);
+    color: rgb(255, 217, 217);
+    font-family: "Merienda", cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+ }
+ 
+ #link{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
+.firstpage{
+    font-size: 50px;
+}
+.secondpage{
+    font-size: 50px;
+}
+.thirdpage{
+    font-size: 50px;
+}
+.fourthpage{
+    font-size: 50px;
+}
+.fifthpage{
+    background-color: rgb(128, 40, 40);
+    color: rgb(255, 217, 217);
+    font-family: "Merienda", cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+
+
+.my-love {
+    display: block; 
+    font-style: italic;
+    margin-top: 10px;
+    animation: slideInLeft 2.3s ease-out forwards;
+
+}
+.love {
+    font-size: 100px;
+    animation: glow 1.5s ease-in-out infinite;
+}
+
+.despite{
+    display: block;
+    opacity: 0;
+    animation: slideInLeftSecond 2s ease-out forwards;
+    animation-delay: 1.9s; 
+}
+.second-despite{
+    display: block;
+    opacity: 0;
+
+    animation: slideInLeftSecond 2s ease-out forwards;
+    animation-delay: 4.3s; 
+}
+
+
+.harsh-conditions {
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    margin-left: 60px;
+    display: block;
+    opacity: 0;
+    animation: slideInLeftHarsh 1s ease-out forwards, glitch 1s ease-in-out 1s infinite; 
+    animation-delay: 3.5s; 
+}
+.hardships{
+    color:rgb(102, 37, 37);
+    font-size: 90px;
+    display: inline-block;
+    opacity: 0;
+    animation: slideInLeftHarsh 1s ease-out forwards, glitch 1s ease-in-out 1s infinite; 
+    animation-delay: 5.9s; 
+}
+.hardships a {
+    display: inline-block; 
+    color: rgb(204, 172, 78);
+    font-size: 120px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hardships a:hover {
+    transform: scale(1.2); 
+}
+
+
+.love{
+    display: inline;
+    font-weight: bold;
+    color: rgb(197, 64, 117);
+}
+
+
+.and-if-i-was {
+    display: block; 
+    font-style: italic;
+    margin-top: -80px;
+    animation: slideInLeft 2.3s ease-out forwards;
+}
+
+.away-from-her {
+    display: block; 
+    opacity: 0;
+    animation: slideInLeftThird 3s ease-out forwards;
+    animation-delay: 2.5s; 
+}
+
+.away {
+    display: inline;
+    color: rgb(251, 165, 158);
+    font-size: 100px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.away:hover {
+    opacity: 0;
+ 
+}
+
+.longed{
+    color: rgb(251, 165, 158);
+}
+.longed-for-her {
+    display: block;
+    opacity: 0;
+    animation: scaleUp 2s ease-out forwards;
+    animation-delay: 4.5s; 
+
+}
+
+.forher {
+    text-decoration: none;
+    color: rgb(204, 172, 78);
+    font-size: 90px;
+    display: inline-block;
+    opacity: 0;  
+    animation: slideInLeftThird 2s ease-out forwards;
+    animation-delay: 5.9s; 
+    transition: transform 0.3s ease-in-out; 
+}
+.longed {
+    color: rgb(251, 165, 158);
+    transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.longed-for-her:hover .longed {
+    transform: scale(1.1) rotate(5deg);
+    color: rgb(255, 78, 78);
+}
+.forher a {
+    display: inline-block;  
+    color: rgb(204, 172, 78);
+    font-size: 120px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.forher a:hover {
+    transform: scale(1.2); 
+}
+#second{
+    cursor: pointer;
+}
+
+
+.truth, .love, .something, .priceless {
+    display: block; 
+    text-align: center;
+}
+
+.love {
+    font-size: 90px;
+    color: rgb(197, 64, 117);
+}
+
+.priceless {
+    font-size: 90px;
+    color: yellow;
+    text-decoration: none;
+}
+
+
+.thirdpage {
+    text-align: center;
+}
+.truth{
+    display: block; 
+    font-style: italic;
+    animation: slideInLeftSecond 2.3s ease-out forwards;
+
+}
+.truth{
+    font-size: 64px;
+    display: block; 
+}
+
+
+
+.love-something {
+    display: inline-block; 
+    font-size: 90px;
+    opacity: 0;
+    display: block; 
+    font-style: italic;
+    margin-top: 10px;
+    animation: scaleUp 2.3s ease-out forwards;
+    animation-delay: 2s;
+}
+
+.love {
+    display: inline; 
+    margin-right: 5px; 
+}
+
+.something {
+    display: inline; 
+}
+
+.pricelesss {
+    font-size: 120px;
+    color: rgb(204, 172, 78);
+    opacity: 0;
+    text-decoration: none;
+    display: block; 
+    font-style: italic;
+    margin-top: 10px;
+    animation: slideInLeftSecond 2.3s ease-out forwards;
+    animation-delay: 3s;
+}
+
+.pricelesss a {
+    display: inline-block; 
+    color: rgb(204, 172, 78);
+    transition: transform 0.3s ease-in-out;
+}
+.pricelesss a:hover {
+    transform: scale(1.2); 
+}
+
+.someone-asks{
+    display: block; 
+    font-style: italic;
+    margin-top: 10px;
+    animation: slideInLeft 2.3s ease-out forwards;
+    font-size: 60px;
+}
+.who-is-your-beloved{
+    display: inline-block;
+    opacity: 0;
+    animation: slideInLeftSecond 2s ease-out forwards;
+    animation-delay: 1.9s; 
+}
+.beloved {
+    color: rgb(251, 165, 158); 
+    transition: text-shadow 0.3s ease; 
+}
+
+.beloved:hover {
+    text-shadow: 0 0 10px rgba(186, 85, 211, 0.8), 0 0 20px rgba(186, 85, 211, 0.8); 
+}
+.i-say{
+    display: block; 
+    opacity: 0;
+    animation: scaleUp 3s ease-out forwards;
+    animation-delay: 2.8s; 
+    font-size: 100px;
+}
+
+.yemen {
+    text-decoration: none;
+    font-size: 150px;
+    font-weight: bold;
+    animation: flagFlicker 3s infinite;
+    animation-delay: 5.4s;
+    opacity: 0;
+}
+
+
+.loved{
+    display: block; 
+    font-style: italic;
+    margin-top: 10px;
+    animation: slideInLeft 2s ease-out forwards;
+
+}
+.when{
+    display: block; 
+    font-style: italic;
+    opacity: 0;
+    margin-top: 10px;
+    animation: slideInLeftSecond 2.3s ease-out forwards;
+     animation-delay: 1.2s;
+}
+
+
+.old {
+    display: inline-block;
+    font-size: 40px;
+    opacity: 0;
+    font-size: 80px;
+    font-weight: bold;
+    animation: fadeRotate 3s ease-in-out forwards;
+    animation-delay: 2.2s;
+}
+.tattered {
+    display: inline-block;
+    font-size: 40px;
+    opacity: 0;
+    font-size: 80px;
+    font-weight: bold;
+    animation: fadeRotate 3s ease-in-out forwards;
+    animation-delay: 3.9s;
+}
+
+.worn-out{
+    display: block; 
+    font-style: italic;
+    opacity: 0;
+    margin-top: 10px;
+    animation: slideInLeftSecond 2.3s ease-out forwards;
+    animation-delay: 5.9s;
+}
+.time{
+    font-size: 120px;
+    color: rgb(242, 204, 90);
+    opacity: 0;
+    text-decoration: none;
+    display: block; 
+    font-style: italic;
+    margin-top: 10px;
+    animation: slideInLeft 2.3s ease-out forwards;
+    animation-delay: 7.2s;
+}
+
+.time a {
+    display: inline-block;  
+    color: rgb(242, 204, 90);
+    transition: transform 0.3s ease-in-out;
+
+}
+.time a:hover {
+    transform: scale(1.2); 
+}
+
+
+.whenever{
+    display: block;
+    font-style: italic;
+    font-size: 50px;
+    margin-top: 10px;
+    animation: slideInLeft 2.3s ease-out forwards;
+
+}
+.pain {
+    color: rgb(83, 29, 29);  
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.pain:hover {
+    color: darkred;  
+    transform: scale(1.2);  
+}
+
+.sighed-pain{
+    display: block; 
+    opacity: 0;
+    animation: scaleUp 3s ease-out forwards;
+    animation-delay: 2s; 
+    font-size: 100px;
+}
+
+
+
+.i-sighed {
+    display: inline-block;
+    color: rgb(134, 134, 255);
+    opacity: 0;
+    animation: sighedWave 2.5s ease-in-out infinite;
+    animation-delay: 3.7s;
+}
+.with-her{
+    font-size: 100px;
+    margin-left: 60px;
+    display: block;
+    opacity: 0;
+    animation: slideInLeftSecond 2.3s ease-out forwards;
+    animation-delay: 4.5s; 
+}
+.herr {
+    display: inline-block; 
+    text-decoration: none;
+    color: rgb(242, 204, 90);
+    transition: transform 0.3s ease-in-out;
+}
+
+.herr a {
+    color: rgb(242, 204, 90);
+    text-decoration: none;
+    font-size: 120px;
+}
+
+.herr:hover {
+    transform: scale(1.5); 
+}
+
+.loyal-line{
+    display: block; 
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    animation: slideInLeft 2.3s ease-out forwards;
+
+}
+.lover-line{
+    display: block; 
+    font-style: italic;
+    opacity: 0;
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    animation: scaleUp 2.6s ease-out forwards; 
+    animation-delay: 2s; 
+}   
+
+.devoted{
+    color: rgb(251, 158, 242); 
+   cursor: default;
+   font-size: 80px;
+    transition: text-shadow 0.3s ease; 
+}
+
+.devoted:hover {
+    text-shadow: 0 0 10px rgba(214, 108, 202, 0.8), 0 0 20px rgba(186, 85, 211, 0.8); 
+}
+
+
+
+.belovedd{
+    display: inline-block;  
+    text-decoration: none;
+    color: rgb(242, 204, 90);
+    transition: transform 0.3s ease-in-out;
+}
+
+.belevoedd a{
+    color: rgb(242, 204, 90);
+    text-decoration: none;
+    font-size: 120px;
+}
+.belovedd:hover {
+    transform: scale(1.2); 
+}
+.beloved-line{
+    display: block; 
+    font-style: italic;
+    opacity: 0;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    animation: slideInLeftSecond 2.3s ease-out forwards;
+    animation-delay: 3s;
+}
+
+.promise-line{
+    display: block; 
+    font-style: italic;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    animation: slideInLeft 2.3s ease-out forwards;
+
+}
+
+.fulfill-line{
+    font-size: 100px;
+    margin-left: 60px;
+    display: block;
+    opacity: 0;
+    animation: slideInLeftSecond 2.3s ease-out forwards;
+    animation-delay: 2.2s; 
+}
+
+.betrayal-line{
+    font-size: 100px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 70px;
+    display: block;
+    opacity: 0;
+    animation: scaleUp 2.3s ease-out forwards;
+    animation-delay: 4.5s; 
+}
+
+.traitor-line{
+    font-size: 70px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+    opacity: 0;
+    animation: slideInLeftSecond 2.3s ease-out forwards;
+    animation-delay: 5.7s; 
+}
+
+.traitor{
+    display: inline-block;  /* Ensures it scales properly */
+    text-decoration: none;
+    color: rgb(242, 204, 90);
+    transition: transform 0.3s ease-in-out;
+}
+
+.traitor a{
+    color: rgb(242, 204, 90);
+    text-decoration: none;
+    font-size: 120px;
+}
+.traitor:hover {
+    transform: scale(1.2); 
+}
+.fulfill {
+    transition: all 0.3s ease; 
+    color: rgb(251, 165, 158);
+}
+
+.fulfill:hover {
+    color: #FF6347; 
+    font-size: 1.4em; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    transform: rotate(360deg); 
+    text-shadow: 2px 2px 5px rgba(255, 99, 71, 0.6); 
+}
+
+.promise {
+    transition: all 0.4s ease;
+    color: rgb(251, 165, 158);
+}
+
+.promise:hover {
+    color: #FF6347;
+    letter-spacing: 3px;
+    text-shadow: 0 0 5px #FF6347;
+}
+
+
+
+.betrayal {
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.betrayal {
+    color: rgb(223, 11, 11);
+    animation: twitch 0.4s linear infinite;
+}
+
+
+.my-belovedd{
+    display: block; 
+    opacity: 0;
+    animation: scaleUp 3s ease-out forwards;
+    font-size: 90px;
+}
+p{
+    display: block;
+    opacity: 0;
+    animation: scaleUp 3s ease-out forwards;
+    animation-delay: 2s; 
+    font-size: 50px;
+}
+.start-over-button {
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color:  rgb(242, 204, 90);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    top: 200px; 
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 3.8s; 
+}
+
+
+
+.start-over-button:hover {
+    background-color:  rgb(242, 204, 90);
+    transform: scale(1.4); 
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeRotate {
+    0% {
+        opacity: 0;
+        transform: rotate(-360deg);
+        color: gray;
+    }
+    50% {
+        opacity: 0.5;
+        transform: rotate(180deg);
+        color: #808080; 
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg);
+        color: black;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%); 
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-30%); 
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeftSecond {
+    0% {
+        transform: translateX(-100%); 
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(22%); 
+        opacity: 1;
+    }
+}
+@keyframes slideInLeftThird{
+    0% {
+        transform: translateX(-50%); 
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(70%); 
+        opacity: 1;
+    }
+}
+@keyframes glitch {
+    0% {
+        opacity: 1;
+        
+        transform: translate(0);
+    }
+    20% {
+        opacity: 1;
+        transform: translate(3px, 3px);
+    }
+    40% {
+        opacity: 1;
+        transform: translate(-3px, -3px);
+    }
+    60% {
+        opacity: 1;
+        transform: translate(3px, 3px);
+    }
+    80% {
+        opacity: 1;
+        transform: translate(-3px, -3px);
+    }
+    100% {
+        opacity: 1;
+        text-shadow: none;
+        transform: translate(0);
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px rgba(196, 56, 119, 0.9), 0 0 10px rgba(152, 38, 101, 0.5), 0 0 15px rgba(255, 0, 0, 0.5);
+        color: pink;
+    }
+    50% {
+        text-shadow: 0 0 20px rgb(223, 12, 82), 0 0 30px rgba(169, 52, 110, 0.8), 0 0 40px rgba(255, 0, 0, 0.6);
+        color: pink;
+    }
+    100% {
+        text-shadow: 0 0 5px rgba(255, 0, 0, 0.5), 0 0 10px rgba(156, 57, 134, 0.5), 0 0 15px rgba(255, 0, 0, 0.5);
+        color: pink;
+    }
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes sighedWave {
+    0% { transform: translateY(0); opacity: 0; }
+    25% { transform: translateY(-3px) rotate(-2deg); opacity: 0.5; }
+    50% { transform: translateY(2px) rotate(2deg); opacity: 0.8; }
+    75% { transform: translateY(-2px) rotate(-1deg); opacity: 0.9; }
+    100% { transform: translateY(0) rotate(0deg); opacity: 1; }
+}
+
+
+
+@keyframes twitch {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-1px); }
+    100% { transform: translateX(0); }
+}
+@keyframes flagFlicker {
+    0% {
+        color: red;
+        opacity: 0.7;
+        transform: scale(1.2);
+    }
+    20% {
+        color: white;
+        opacity: 0.3;
+        transform: scale(1.4);
+    }
+    40% {
+        color: black;
+        opacity: 0.9;
+        transform: scale(1.6);
+    }
+    60% {
+        color: red;
+        opacity: 0.4;
+        transform: scale(1.8);
+    }
+    80% {
+        color: white;
+        opacity: 0.6;
+        transform: scale(2);
+    }
+    100% {
+        color: black;
+        opacity: 1;
+        transform: scale(1.5);
+    }
+}
