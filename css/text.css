@@ -527,7 +527,7 @@ body {
 }
 
 .traitor{
-    display: inline-block;  /* Ensures it scales properly */
+    display: inline-block;  
     text-decoration: none;
     color: rgb(242, 204, 90);
     transition: transform 0.3s ease-in-out;
