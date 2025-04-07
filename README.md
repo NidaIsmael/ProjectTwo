@@ -10,4 +10,4 @@ The project will be built using HTML and CSS
 Transitions & Transformations: CSS animations will be used to create smooth text reveals, slow fades, and symbolic movements to reflect the emotional weight of the lyrics. Once the word Yemen shows up it will transtion to a lighter color background to symoblize hope. 
 Software & Hosting: The project will be coded in VS Code and hosted on GitHub Pages.
 ### Acknowledgment
-Lyrics from Lyrics from "محبوبتي" by Hussain Al Jassmi
+Lyrics from "محبوبتي"(My Beloved) by Hussain Al Jassmi
