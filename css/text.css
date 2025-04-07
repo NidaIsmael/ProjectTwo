@@ -376,7 +376,6 @@ body {
 .pain {
     color: rgb(83, 29, 29);  
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 
 .pain:hover {
