@@ -579,12 +579,8 @@ body {
 }
 
 
-.my-belovedd{
-    display: block; 
-    opacity: 0;
-    animation: scaleUp 3s ease-out forwards;
-    font-size: 90px;
-}
+
+
 p{
     display: block;
     opacity: 0;
